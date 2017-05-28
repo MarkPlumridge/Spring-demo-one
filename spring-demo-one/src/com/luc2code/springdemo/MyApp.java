@@ -7,7 +7,7 @@ public class MyApp {
 		// create the object
 		ICoach theCoach = new TrackCoach();
 		
-		// use the object
+		// use the object to get the daily workout 
 		System.out.println(theCoach.getDaiyWorkout());
 		
 		System.exit(0);
